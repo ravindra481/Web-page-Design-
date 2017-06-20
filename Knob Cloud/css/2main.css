@@ -1,0 +1,52 @@
+input {
+    height: 20px;
+    margin: 4px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    font-size: 15px;
+}
+
+.header{
+    position: relative;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;  
+    
+}
+
+.sign-up-form{
+    margin-top: 40px;
+}
+
+#body
+{
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+height: 100%; /* or the height of webpage is px */
+width: 100%; /* or the width of webpage is px */
+animation-name:mymove;
+animation-duration:5s;
+animation-direction:alternate;
+animation-iteration-count:infinite;
+-webkit-animation-name:mymove;
+-webkit-animation-duration:5s;
+-webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite;
+}
+@keyframes mymove
+{
+from {background:transparent;}
+to {background:#3B3BFF;}
+}
+@-webkit-keyframes mymove
+{
+from {background:transparent;}
+to {background:#3B3BFF;}
+}

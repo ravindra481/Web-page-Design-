@@ -1,0 +1,24 @@
+#knobcloud-forgotten-form {
+    position: relative;
+    height: 400px;
+}
+
+#forgotten-box {
+    position: absolute;
+    top: 50%;
+      
+}
+
+
+.knobcloud-header{
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+}
+    
+
+h1{
+ font-size: 25px;
+     }
+
+ 
